@@ -1,6 +1,11 @@
 from temperature import is_overheating
 
-temp = float(input("Ingrese temperatura: "))
+while True:
+    try:
+        temp = float(input("Ingrese temperatura: "))
+        break
+    except ValueError:
+        print("❌ Error: solo se permiten números.")
 
 if is_overheating(temp):
     print("⚠️ ALARMA: Temperatura alta")
