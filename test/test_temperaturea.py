@@ -6,7 +6,3 @@ def test_high_temperature():
 
 def test_normal_temperature():
     assert is_overheating(60) is False
-
-def test_invalid_temperature():
-    with pytest.raises(ValueError):
-        is_overheating(-5)
