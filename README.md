@@ -1,6 +1,2 @@
-# Control de Temperatura Industrial
-Sistema simple de control de temperatura industrial.
-
-## Funciones
-- Detecta altas temperaturas
-- Detecta errores de sensor
+# ACT9_Grupal
+# Lecturas de sensores no válidas
