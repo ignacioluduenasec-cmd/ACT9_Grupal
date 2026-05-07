@@ -1,2 +1,6 @@
-# ACT9_Grupal
-# El sistema detecta temperaturas superiores a 80 °C.
+# Control de Temperatura Industrial
+Sistema simple de control de temperatura industrial.
+
+## Funciones
+- Detecta altas temperaturas
+- Detecta errores de sensor
